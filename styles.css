@@ -13,6 +13,9 @@
     background-size: cover;
     height: 650px;
 }
+#btn{
+    background-color:#5FA232 ;
+}
 .icon-style{
     background-color: #AFD199;
     cursor: pointer;
@@ -22,4 +25,21 @@
 }
 .login-btn:hover{
     background-color: #50882A;
+}
+#Organ{
+    color: #FF6924;
+}
+.Always{
+    margin-top: 100px !important;
+
+}
+.Always h1{
+    font-size: 70px !important;
+    font-weight: 700;
+}
+#shop-btn{
+    background-color: #ff6924 !important;
+}
+.our-job{
+    font-family: "Barlow", sans-serif;
 }
