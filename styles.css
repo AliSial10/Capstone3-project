@@ -11,7 +11,8 @@
 .head-section{
     background-image: url(./img/h5-bg-slider1.jpg);
     background-size: cover;
-    height: 650px;
+    width: 100%;
+    height: 100%;
 }
 #btn{
     background-color:#5FA232 ;
@@ -37,7 +38,7 @@
     font-size: 70px !important;
     font-weight: 700;
 }
-#shop-btn{
+.shop-btn{
     background-color: #ff6924 !important;
 }
 .our-job{
