@@ -12,7 +12,7 @@
     background-image: url(./img/h5-bg-slider1.jpg);
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 150vh;
 }
 #btn{
     background-color:#5FA232 ;
@@ -41,6 +41,41 @@
 .shop-btn{
     background-color: #ff6924 !important;
 }
+.shop-btn:hover{
+    background-color: rgb(44, 196, 44) !important;;
+}
+.about{
+    background: none !important;;
+    color: white !important;
+    border: 2px solid rgb(35, 230, 61) !important;;
+}
+.about:hover{
+    background: rgb(35, 230, 61)!important;;
+    color: white !important;
+}
 .our-job{
     font-family: "Barlow", sans-serif;
 }
+.special{
+    font-size: 60px !important;
+    color: #010148;
+}
+.fresh{
+    color: #010148;
+}
+.great{
+    margin: 10px 120px !important;
+    background-color: #16cc25;
+    padding: 1px !important;
+}
+.learn-m{
+    color: #010148;
+    border: 2px solid rgb(35, 230, 61) !important;;
+}
+.learn-m:hover{
+    background-color: #FF6924 !important;
+    border: none !important;;
+    color: white !important;
+}
+.support:hover{
+    box-shadow: 0 35px 46px rgba(1, 1, 72, .1);}
