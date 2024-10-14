@@ -84,11 +84,31 @@
     background-color: #FF6924;
     color: white;
 }
-.vgt-color{
-    color: #010148;
-}
 .card-1{
     cursor: pointer;
 }
-.card-1:hover{
-    box-shadow: 0 35px 46px rgba(1, 1, 32, 0.1);}
+.start-bg{
+    background-image: url(./img/h5-bg-cta1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.fresh-fruit:hover{
+    background-color: #16cc25;
+color: #010148;
+}
+.Add-cart{
+    background-color: #FF6924;
+}
+.countdown{
+    background-image: url(./img/h5-bg-countdown1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.deal-week{
+    padding-top: 200px;
+}
+.days{
+    border: 2px dashed white !important;;
+}
