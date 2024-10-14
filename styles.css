@@ -60,9 +60,6 @@
     font-size: 60px !important;
     color: #010148;
 }
-.fresh{
-    color: #010148;
-}
 .great{
     margin: 10px 120px !important;
     background-color: #16cc25;
@@ -79,3 +76,19 @@
 }
 .support:hover{
     box-shadow: 0 35px 46px rgba(1, 1, 72, .1);}
+.arrow{
+    border: 2px solid #FF6924;
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: #FF6924;
+    color: white;
+}
+.vgt-color{
+    color: #010148;
+}
+.card-1{
+    cursor: pointer;
+}
+.card-1:hover{
+    box-shadow: 0 35px 46px rgba(1, 1, 32, 0.1);}
