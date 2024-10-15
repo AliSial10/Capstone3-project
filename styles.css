@@ -93,10 +93,6 @@
     width: 100%;
     height: 40vh;
 }
-.fresh-fruit:hover{
-    background-color: #16cc25;
-color: #010148;
-}
 .Add-cart{
     background-color: #FF6924;
 }
@@ -111,4 +107,28 @@ color: #010148;
 }
 .days{
     border: 2px dashed white !important;;
+}
+.anderson{
+    color: #010148!important; 
+    background-color: #ebebeb !important;
+}
+.dot-1{
+    color: #FF6924!important;
+    border: 2px solid #010148!important;
+}
+.aliesha{
+    margin-top: 100px !important;
+}
+.best-guide{
+    color: #010148;
+}
+.last-bg-img{
+    background-image: url(./img/h5-bg-footer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.face-icon:hover{
+    color: white !important;;
+background-color: #5FA232!important;
 }
