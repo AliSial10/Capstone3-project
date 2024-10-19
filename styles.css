@@ -9,6 +9,7 @@
     cursor: pointer;
 }
 .head-section{
+    background-position: center;
     background-image: url(./img/h5-bg-slider1.jpg);
     background-size: cover;
     width: 100%;
@@ -26,6 +27,7 @@
 }
 .login-btn:hover{
     background-color: #50882A;
+    color: white !important;;
 }
 #Organ{
     color: #FF6924;
@@ -88,6 +90,7 @@
     cursor: pointer;
 }
 .start-bg{
+    background-position: center;
     background-image: url(./img/h5-bg-cta1.jpg);
     background-size: cover;
     width: 100%;
@@ -97,6 +100,7 @@
     background-color: #FF6924;
 }
 .countdown{
+    background-position: center;
     background-image: url(./img/h5-bg-countdown1.jpg);
     background-size: cover;
     width: 100%;
@@ -124,6 +128,8 @@
 }
 .last-bg-img{
     background-image: url(./img/h5-bg-footer.jpg);
+    background-position: center;
+
     background-size: cover;
     width: 100%;
     height: 80vh;
@@ -131,4 +137,37 @@
 .face-icon:hover{
     color: white !important;;
 background-color: #5FA232!important;
+}
+
+
+/* Register */
+.second-nav{
+    background-image: url(./img/bg-page-title.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+.browse{
+background-color: #50882A;
+}
+.sign-up{
+    font-size: 100px !important;
+}
+.create{
+    margin-left: 590px !important;
+}
+
+
+/* Login */
+.login-footer{
+    background-image: url(./img/bg-mailchimp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh!important;
+    border-radius: 100px !important;
+}
+.input-foter{
+    background: none !important;;
 }
