@@ -2,639 +2,815 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
 </head>
-<!-- Header-section -->
-<div class="head-section">
-  <div class="d-none d-md-block">
-    <div class="hero-section">
-      <div id="btn" class="py-2">
-        <div class="container align-items-center ">
-          <div class="d-flex justify-content-between align-items-center">
-            <div>
-              <p class="mt-2 text-white fw-bold">Welcome to our Organic store Organico!</p>
+
+<body>
+    <!-- hero-section -->
+    <div class="hero pb-5">
+        <div class="d-none d-md-block">
+            <div class="hero-section">
+                <div id="btn" class="py-2">
+                    <div class="container align-items-center ">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mt-2 text-white fw-bold">Welcome to our Organic store Organico!</p>
+                            </div>
+
+
+                            <div class="fs-4 mt-2">
+                                <iconify-icon class=" icon rounded-circle py-1
+                    px-1 p-2 icon" icon="flowbite:facebook-solid"></iconify-icon>
+                                <iconify-icon class="mx-2 rounded-circle py-1
+                    px-1 p-2 icon" icon="mdi:twitter"></iconify-icon>
+                                <iconify-icon class="rounded-circle py-1
+                    px-1 p-2 icon" icon="ri:linkedin-fill"></iconify-icon>
+                                <iconify-icon class="rounded-circle py-1 fs-4
+                    px-1 ms-2 icon" icon="fa6-brands:pinterest-p"></iconify-icon>
+
+
+                            </div>
+                            <div class=" text-white ">
+                                <a class="iii text-white text-decoration-none  fw-medium px-4
+                                  py-5" href="./login.html">login</a> |
+
+
+                                <a class="iii text-decoration-none text-white  fw-medium px-4 py-5"href="./register.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg bg-light container">
+            <div class="container-fluid px-4">
+                <img class="pointr img-fluid" width="140" src="./image/logo-mobile.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-black fw-medium" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active me-4" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-" href="#">Elements <iconify-icon class=""
+                                    icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
+                        </li>
+
+                    </ul>
+
+                    <div class="ms-5 pointr d-none d-md-block">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <div class="navbar-nav ms-auto">
+                                <iconify-icon class="fs-4 mt-2" icon="mdi-light:heart"></iconify-icon>
+                                    <a class="nav-link" href="#"><iconify-icon class="fs-4 mx-2"
+                                            icon="uil:shopping-cart-alt"></iconify-icon>(<span class=""
+                                            id="cart-count">0</span>)</a>
+                                    <iconify-icon class="fs-4 mt-2" icon="material-symbols-light:search"></iconify-icon>
+
+                           </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
 
 
-            <div class="fs-4 mt-2">
-              <iconify-icon class=" icon rounded-circle py-1 px-1 p-2 icon-style"
-                icon="flowbite:facebook-solid"></iconify-icon>
-              <iconify-icon class="mx-2 rounded-circle py-1
-                      px-1 p-2 icon-style" icon="mdi:twitter"></iconify-icon>
-              <iconify-icon class="rounded-circle py-1
-                      px-1 p-2 icon-style" icon="ri:linkedin-fill"></iconify-icon>
-
-
-              <iconify-icon class="rounded-circle py-1 fs-4
-                      px-1 ms-2 icon-style" icon="fa6-brands:pinterest-p"></iconify-icon>
-
+        
+        <!-- Header-Section -->
+        <div class="contant container">
+            <div class=" text-center row">
+                <div class="fresh">
+                    <div class="text-white ">
+                        <h2 class="fw-bold">Always Fresh & <span class="bkg">Organic</span> <br> Vegetables</h2>
+                    </div>
+                    <div class="text-white">
+                        <p class="fw-medium fs-5 mt-4">Our Job is to filling Tummy with Delicious Healthy Food <br>
+                            And Fast free Delivery.</p>
+                    </div>
+                    <div>
+                        <button id="shop-btn" class="shop py-3 px-5 border-0 text-white fw-bold rounded">Shop
+                            Now</button>
+                        <button type="button" class="text-white fw-bold btn btn-outline-success py-3 px-5 ms-4">About
+                            Us</button>
+                    </div>
+                </div>
 
             </div>
-            <div class=" text-white ">
-              <a class="login-btn text-white text-decoration-none me-1 p-4 fw-medium" href="./login.html">login</a> |
-              <a class="login-btn text-decoration-none text-white ms-1 p-4 fw-medium" href="./register.html">Register</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <body>
-
-    <!-- navbar-Section -->
-
-    <nav class="navbar navbar-expand-lg bg-light container">
-      <div class="container-fluid px-4">
-        <img class="curser-pointer img-fluid" width="140" src="./img/logo-mobile.png" alt="">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-black fw-medium" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item ">
-              <a class="nav-link active me-4" aria-current="page" href="#">Home <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">pages <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">Shop <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">Portfolio <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link me-4" href="#">Blog <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link ms-" href="#">Elements <iconify-icon class=""
-                  icon="iconamoon:arrow-down-2-light"></iconify-icon></a>
-            </li>
-
-          </ul>
-          <div class="ms-5 curser-pointer d-none d-md-block">
-            <iconify-icon class="fs-4" icon="mdi-light:heart"></iconify-icon>
-            <iconify-icon class="fs-4 mx-2" icon="uil:shopping-cart-alt"></iconify-icon>
-            <iconify-icon class="fs-4 " icon="material-symbols-light:search"></iconify-icon>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="text-white text-center Always">
-      <h1 id="alway-2">Always Fresh & <span id="Organ">Organic</span> <br>
-        Vegetables</h1>
-      <div>
-        <h5 class="our-job m-4">Our Job is to filling Your Tummy with Delicious Healthy Food <br> and fast free Delivery
-        </h5>
-      </div>
-      <div class="pb-5">
-        <button type="button" id="shop-btn2" class="btn shop-btn btn-danger py-3 px-5  mx-3 mt-4 border-0 fs-5">Shop
-          Now</button>
-        <button type="button" class="btn  about  py-3 px-5 mt-4  mx-3  fs-6">About Us</button>
-      </div>
-    </div>
-</div>
-
-<!-- Product-section -->
-<div class="text-center mt- pt-5">
-  <h1 class="special fw-bold">Our Special <span id="Organ"> Features</span></h1>
-  <span class="our-job">Our purpose is to build solutions that remove barriers <br> preventing people from doing their
-    best work, and this is at the heart.</span>
-</div>
-<div class="product-section container my-5 ">
-  <div class="row ">
-    <div class="col-md-4  ">
-      <div class="card text-center support ms-5 mb-3" style="width: 18rem;">
-        <div class="card-body">
-          <img src="./img/h4-banner1.png" alt="">
-          <h5 class=" fw-bold fresh my-4">Fresh Organic Vegetable</h5>
-          <p class="card-text">Not only a great theme, but the customer support is absolutely excellent.</p>
-          <button type="button" class="btn learn-m px-4 py-2 mt-4   mx-3 fw-bold fs-6">Learn more</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 ">
-      <div class="card text-center support ms-5 mb-3" style="width: 18rem;">
-        <div class="card-body">
-          <img src="./img/h4-banner2.png" alt="">
-          <h5 class=" fw-bold fresh my-4">Fast & Easy Grocery Delivery</h5>
-          <p class="card-text">Support is helping to fix my issues now from my previous statement.</p>
-          <button type="button" class="btn learn-m py-2 px-4 mt-4  mx-3 fw-bold fs-6">Learn more</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center  support ms-5 mb-3" style="width: 18rem;">
-        <div class="card-body">
-          <img src="./img/h4-banner3.png" alt="">
-          <h5 class="fw-bold fresh my-4">Very Easy Payment System</h5>
-          <p class="card-text">Best customer services and with quality design like this? You guys are the best.</p>
-          <button type="button" class="btn learn-m py-2 px-4 mt-4  mx-3 fw-bold fs-6">Learn more</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="container mt-5">
-  <div>
-    <h1 class="special fw-bold">Popular <span id="Organ">Category</span> </h1>
-  </div>
-  <div class="row">
-    <div class="col-md-10">
-      <p class="our-job">What separates theme from all other web design agencies is the ability to <br> offer the most
-        Friendly Experience you can imagine.</p>
-    </div>
-    <div class="col-md-2 ">
-      <iconify-icon class=" p-2 rounded arrow mx-2 fs-4" icon="stash:arrow-left"></iconify-icon>
-      <iconify-icon class=" p-2 rounded arrow fs-4" icon="stash:arrow-right-duotone"></iconify-icon>
-    </div>
-  </div>
-</div>
-
-<div class="container mt-5">
-  <div class="row text-center g-4">
-    <div class="col-6 col-md-2 rounded">
-      <div class="card border h-100 shadow-sm card-1">
-        <div class="card-body ">
-          <img class="mt-2" width="110" src="./img/h5-icon1.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-3 ">Vegetable</h5>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-2 ">
-      <div class="card border h-100 shadow-sm card-1">
-        <div class="card-body">
-          <img class="" width="90" src="./img/h5-icon2.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-4 ">Fruits</h5>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-2">
-      <div class="card border h-100 shadow-sm card-1">
-        <div class="card-body">
-          <img class="mt-2" width="90" src="./img/h5-icon3.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-3 clr">Dried</h5>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-2 card-1">
-      <div class="card border h-100 shadow-sm">
-        <div class="card-body">
-          <img class="mt-" width="70" src="./img/h5-icon4.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-2 ">jucie</h5>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-2 card-1">
-      <div class="card border h-100 shadow-sm">
-        <div class="card-body">
-          <img class="mt-2" width="80" src="./img/h5-icon5.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-3">Salad</h5>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-2 card-1">
-      <div class="card border h-200 shadow-sm">
-        <div class="card-body">
-          <img class="mt-2" width="100" src="./img/h5-icon6.png" alt="">
-          <h5 class="card-title fw-bold text-center mt-3 vgt-color">Organic</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container mt-5 start-bg rounded">
-  <div class="text-center text-white pt-5">
-    <span class="fs-3 our-job">Start from <span id="Organ">$39.99</span> </span>
-    <h1 class="fw-bold">Organic Food up to 20% off</h1>
-    <button type="button" id="btn" class="btn btn-success border-0 mt-2 px-3 py-2 fw-bold">Shop Now</button>
-  </div>
-</div>
-
-
-<div class="container mt-5">
-  <div>
-    <h1 class="special fw-bold">Trending <span id="Organ">Products</span> </h1>
-  </div>
-  <div class="row">
-    <div class="col-md-5">
-      <p class="our-job">
-        We understand the importance of approaching each work integrally and believe in the power of simple and easy
-        communication.
-      </p>
-    </div>
-    <div class="col-md-7 ">
-      <button type="button" id="btn" class="btn btn-success border-0  px-3 py-2 fw-bold">All Products</button>
-      <button type="button" id="btn" class="btn bg-white fw-bold">Fresh Fruits</button>
-      <button type="button" id="btn" class="btn bg-white fw-bold">Nature</button>
-      <button type="button" id="btn" class="btn bg-white fw-bold">Recipies</button>
-      <button type="button" id="btn" class="btn bg-white fw-bold">Vegetable</button>
-
-    </div>
-  </div>
-</div>
-</div>
-<div class="container text-center">
-  <div class="row">
-
-
-    <div class=" mt-5 mx-1 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product2-1-500x400 (1).png" width="" class="card-img-top bg-danger-subtle rounded " alt="...">
-      <div class="card-body text-center border py-4  ">
-        <h5 class="card-title fw-bold">Fresh Orange</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00 – $65.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
     </div>
 
-
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product5-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Red Apple Envy</h5>
-        <p id="Organ" class="card-text fw-bold">$24.00 $18.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product11-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Green bow</h5>
-        <p id="Organ" class="card-text fw-bold ">$4.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product12-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Organic Lemon</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-    <!--second-->
-
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product10-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Organo Carrot</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00 – $65.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product9-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Organic Cabbage</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00 – $65.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product8-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Organic Potato</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00 – $65.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-    <div class=" mt-5 ms-5" style="width: 14rem; ">
-      <img src="./img/h3-product7-500x400.png" class="card-img-top bg-danger-subtle rounded" alt="...">
-      <div class="card-body text-center border py-4">
-        <h5 class="card-title fw-bold">Organic Peas</h5>
-        <p id="Organ" class="card-text fw-bold">$12.00 – $65.00</p>
-        <a href="#" class="btn shop-btn text-white fw-bold">Add to Cart</a>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!--coundown-->
-<div class="countdown mt-5">
-  <div class="container ">
-    <div class="row">
-      <div class="deal-week">
-        <h1 class="fw-bold text-white mt-4 special ">Deals Of The <span id="Organ">Weeks</span></h1>
-
-        <p class="text-white  mt-4 fs-5 our-job">Organio is a design studio founded in London. Nowadays, we’ve grown and
-          <br> expanded our services, and have become a multinational firm.
-        </p>
-      </div>
-      <div class="col-3 col-md-3 col-lg-2 mb-3  mt-4 ">
-        <button class="p-2 Add-cart rounded border-0 text-white ">
-          <h3 class="fw-bold fs-1">2156</h3>
-          <h6 class="fw-bold">DAYS</h6>
-        </button>
-      </div>
-
-      <div class="col-3 col-md-3  col-lg-2 mb-3  mt-4">
-        <button class="p-2 Add-cart  rounded border-0 text-white px-4">
-          <h3 class="fw-bold fs-1 ">11</h3>
-          <h6 class="fw-bold">HOU</h6>
-        </button>
-      </div>
-
-      <div class="col-3 col-md-3 col-lg-2 mb-3 mt-4">
-        <button class="p-2 Add-cart px-4 rounded border-0 text-white">
-          <h3 class="fw-bold fs-1 ">10</h3>
-          <h6 class="fw-bold">MIN</h6>
-        </button>
-      </div>
-
-      <div class="col-3 col-md-3 col-lg-2 mb-3 mt-4">
-        <button class="p-2 Add-cart rounded border-0 text-white">
-          <h3 class="fw-bold fs-1 ">30</h3>
-          <h6 class="fw-bold">SEC</h6>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="text-center mt- pt-5">
-  <h1 class="special fw-bold">Our Farm Land <span id="Organ"> Farmers</span></h1>
-  <span class="our-job">We love what we do and we do it with passion. We value the experimentation of the <br> message
-    and smart incentives.</span>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class=" mt-5 mx-1 ms-5" style="width: 14rem; ">
-      <img src="./img/h5-team1-270x368.jpg" width="" class="card-img-top bg-danger-subtle rounded-top " alt="...">
-      <div class="card-body text-center p-2 border anderson rounded-bottom ">
-        <h5 class="card-title fw-bold">Alex Maxwel</h5>
-        <p class="card-text  pt-2">CEO / Managing Director</p>
-      </div>
-    </div>
-    <div class=" mt-5 mx-1 ms-5" style="width: 14rem; ">
-      <img src="./img/h5-team2-270x368.jpg" width="" class="card-img-top bg-danger-subtle rounded-top " alt="...">
-      <div class="card-body text-center p-2 border anderson rounded-bottom  ">
-        <h5 class="card-title fw-bold">Justin Roberto</h5>
-        <p class="card-text  pt-2">Manager</p>
-      </div>
-    </div>
-    <div class=" mt-5 mx-1 ms-5" style="width: 14rem; ">
-      <img src="./img/h5-team3-270x368.jpg" width="" class="card-img-top bg-danger-subtle rounded-top " alt="...">
-      <div class="card-body text-center p-2 border anderson rounded-bottom ">
-        <h5 class="card-title fw-bold">Louis Agassiz</h5>
-        <p class="card-text pt-2">Organic Farmer</p>
-      </div>
-    </div>
-    <div class=" mt-5 mx-1 ms-5" style="width: 14rem; ">
-      <img src="./img/h5-team4-270x368.jpg" width="" class="card-img-top bg-danger-subtle rounded-top " alt="...">
-      <div class="card-body text-center p-2 border anderson rounded-bottom ">
-        <h5 class="card-title fw-bold">Carl Anderson</h5>
-        <p class="card-text pt-2">Agriculturist</p>
-      </div>
-    </div>
-  </div>
-  <div class="text-center my-4">
-    <iconify-icon class=" rounded-circle fs-5 p-1 dot-1" icon="icon-park-outline:dot"></iconify-icon>
-    <iconify-icon class="p-1 fs-5 anderson bg-white" icon="icon-park-outline:dot"></iconify-icon>
-    <iconify-icon class="p-1 fs-5 anderson bg-white" icon="icon-park-outline:dot"></iconify-icon>
-  </div>
-</div>
-
-
-
-<!--What our Clients are Saying-->
-<div class="bg-body-tertiary py-5">
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img class="img-fluid" src="./img/h5-testimonial-banner.png" alt="">
-      </div>
-      <div class="col-md-6">
-        <h1 class="special fw-bold aliesha">What our Clients are <span id="Organ">Saying</span>
-        </h1>
-        <h5 class="fw-bold aliesha">Aliesha Preston</h5>
-        <span>Managing Director</span> <br>
-        <span class="mt-5">This is one of the BEST THEMES I have ever worked with. The extra bells and whistles added to
-          it are amazing. Elementor features add extra flavor. The customer support is very responsive and
-          amazing.</span>
+    <!-- Our Special Features -->
+    <div class="text-center container">
         <div class="mt-5">
-          <iconify-icon class=" p-2 rounded arrow mx-2 fs-4" icon="stash:arrow-left"></iconify-icon>
-          <iconify-icon class=" p-2 rounded arrow fs-4" icon="stash:arrow-right-duotone"></iconify-icon>
+            <h1 class="clr fw-bold size">Our Special <span class="bkg">Features</span></h1>
+            <p class="text-body-secondary mt-4 fw-medium">Our purpose is to build solutions that remove barriers
+                preventing people<br> from doing their best work, and this is at the heart.
+            </p>
         </div>
-      </div>
     </div>
-  </div>
-</div>
 
-
-<div class="text-center mt-5 pt-5">
-  <h1 class="special fw-bold"> <span id="Organ"> Latest</span> News & Blog</h1>
-  <span class="our-job">Follow our latest news and thoughts which focuses exclusively on design, art, <br> vintage, and
-    also work updates.</span>
-</div>
-
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card border-0 Regular shadow mt-3">
-        <img src="./img/organic1-370x240 murgi.jpg" class="card-img-top" alt="Image 1">
-        <div class="card-body">
-
-
-          <div class="d-flex justify-content-between">
-            <div class="col-">
-              <div class="d-flex">
-                <iconify-icon class="me-2 text-success fs-5 fw-bold" icon="material-symbols:folder-open"></iconify-icon>
-                <p class="text-body-secondary">Fresh meet</p>
-              </div>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div class="col-sm-6 ">
+                <div class="card py-4 drop">
+                    <img width="250" src="./image/h4-banner1.png" class="ms-5 img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="clr fw-bold ">Fresh Organic Vegetable</h5>
+                        <p class="mt-4 text-body-secondary">Not only a great theme, but the customer <br> support is
+                            absolutely excellent.</p>
+                        <div class="mt-">
+                            <button class="alt mt-2 clr py-2 px-4 btn btn-outline-success fw-semibold">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
-
-            <div class="d-flex">
-              <iconify-icon class="text-center text-success fs-5 fw-bold"
-                icon="solar:calendar-line-duotone"></iconify-icon>
-              <p class="ms-2 text-body-secondary">Marech 17, 2021</p>
-            </div>
-          </div>
-
-          <h4 class="clr fw-bold my-4 best-guide ">Our 6 of the Best Organic Chocolates to Buy.</h4>
-          <button type="button" class="clr my-3 fw-bold btn btn-outline-success py-2 px-4">Read
-            More</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 d-none d-md-block">
-      <div class="card border-0 Regular shadow mt-3">
-        <img src="./img/organic2-370x240knife.jpg" class="card-img-top" alt="Image 1">
-        <div class="card-body">
-
-
-          <div class="d-flex justify-content-between">
-            <div class="col-">
-              <div class="d-flex">
-                <iconify-icon class="me-2 text-success fs-5 fw-bold" icon="material-symbols:folder-open"></iconify-icon>
-                <p class="text-body-secondary">Grocery & Frozen</p>
-              </div>
+            <div class="col-sm-6 ">
+                <div class="card py-4 drop">
+                    <img width="250" src="./image/h4-banner2.png" class="ms-5 img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="clr fw-bold ">Fresh Organic Vegetable</h5>
+                        <p class="mt-4 text-body-secondary">Not only a great theme, but the customer <br>
+                            support is absolutely excellent.</p>
+                        <div class="mt-">
+                            <button class="alt mt-2 clr py-2 px-4 btn btn-outline-success fw-semibold">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-
-
-            <div class="d-flex">
-              <iconify-icon class="text-center text-success fs-5 fw-bold"
-                icon="solar:calendar-line-duotone"></iconify-icon>
-              <p class="ms-2 text-body-secondary">Marech 17,2021</p>
+            <div class="col-sm-6 ">
+                <div class="card py-4 drop">
+                    <img width="250" src="./image/h4-banner3.png" class="ms-5 img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="clr fw-bold ">Fresh Organic Vegetable</h5>
+                        <p class="mt-4 text-body-secondary">Not only a great theme, but the customer <br>
+                            support is absolutely excellent.</p>
+                        <div class="mt-">
+                            <button class="alt mt-2 clr py-2 px-4 btn btn-outline-success fw-semibold">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <h4 class="best-guide fw-bold my-4">Best guide to shopping for oragnic ingredients.</h4>
-          <button type="button" class=" my-3 fw-bold btn btn-outline-success py-2 px-4">Read
-            More</button>
         </div>
-      </div>
     </div>
-    <div class="col-md-4 d-none d-md-block ">
-      <div class="card border-0 Regular shadow mt-3">
-        <img src="./img/organic3-370x240.jpg" class="card-img-top" alt="Image 1">
-        <div class="card-body">
+
+    <!-- Hero Section -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="clr fw-bold size">Popular <span class="bkg">Category</span></h1>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-10">
+                <p class="text-body-secondary">What separates theme from all other web design agencies is the ability to
+                    <br>
+                    offer the m0st Friendly Experience you can imagine.
+                </p>
+            </div>
+            <div class="col-md-2 mt-2">
+                <iconify-icon class="clr mx-3 border fs-4 py-2 px-2 btn btn-outline-success "
+                    icon="mingcute:arrow-left-line"></iconify-icon>
+                <iconify-icon class="clr fs-4 py-2 px-2 border btn btn-outline-success "
+                    icon="mingcute:arrow-right-line"></iconify-icon>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row text-center g-4">
+            <div class="col-6 col-md-2">
+                <div class="card border h-100 shadow-sm">
+                    <div class="card-body">
+                        <img class="mt-2" width="110" src="./image/h5-icon1.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-3 clr">Vegetable</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 ">
+                <div class="card border h-100 shadow-sm">
+                    <div class="card-body">
+                        <img class="" width="90" src="./image/h5-icon2.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-4 clr">Fruits</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="card border h-100 shadow-sm">
+                    <div class="card-body">
+                        <img class="mt-2" width="90" src="./image/h5-icon3.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-3 clr">Dried</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="card border h-100 shadow-sm">
+                    <div class="card-body">
+                        <img class="mt-" width="70" src="./image/h5-icon4.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-2 clr">jucie</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="card border h-100 shadow-sm">
+                    <div class="card-body">
+                        <img class="mt-2" width="80" src="./image/h5-icon5.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-3 clr">Salad</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="card border h-200 shadow-sm">
+                    <div class="card-body">
+                        <img class="mt-2" width="100" src="./image/h5-icon6.png" alt="">
+                        <h5 class="card-title fw-bold text-center mt-3 clr">Organic</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-          <div class="d-flex justify-content-between">
-            <div class="col-">
-              <div class="d-flex">
-                <iconify-icon class="me-2 text-success fs-5 fw-bold" icon="material-symbols:folder-open"></iconify-icon>
-                <p class="text-body-secondary">Grocery & Frozen</p>
-              </div>
+    <div class="container mt-5">
+        <div class="bg-two ">
+            <div class="text-center py-5">
+                <h3 class="text-white mt-3">Start from<span class="bkg">$39.99</span></h3>
+                <h1 class="text-white fw-bold">Organic Food up to 20% off</h1>
+                <button type="button" class=" mt-3 btn btn-success py-2 px-4 fw-medium">Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="clr size fw-bold">Trending <span class="bkg">Products</span></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>We understand the importance of approaching each work integrally and <br>
+                    believe in the power of simple and easy communication.
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <button type="button" id="btn" class="btn btn-success border-0  px-3 py-2 fw-bold">All Products</button>
+                <button type="button" id="btn" class="btn  fw-bold aaaa">Fresh Fruits</button>
+                <button type="button" id="btn" class="btn aaaa fw-bold">Nature</button>
+                <button type="button" id="btn" class="btn aaaa fw-bold">Recipies</button>
+                <button type="button" id="btn" class="btn aaaa fw-bold">Vegetable</button>
+            </div>
+        </div>
+    </div>
+    <!-- Add to cart -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product2-1-500x400 (1).png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Fresh Orange</h5>
+                        <h6 class="bkg fw-bol">$12.00 – $65.00</h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product5-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Red Apply Envy</h5>
+                        <h6 class="bkg"><strike>$24.00</strike> <span class="clr">$18.00</span></h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product11-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Green Bow</h5>
+                        <h6 class="bkg">$4.00</h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
             </div>
 
 
-
-            <div class="d-flex">
-              <iconify-icon class="text-center text-success fs-5 fw-bold"
-                icon="solar:calendar-line-duotone"></iconify-icon>
-              <p class="ms-2 text-body-secondary">Marech 17, 2021</p>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product12-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Organic Lemon</h5>
+                        <h6 class="bkg">$12.00</h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <h4 class=" fw-bold my-4 best-guide">Zechsal Magnesium <br> flakes especially made.</h4>
-          <button type="button" class=" my-3 fw-bold btn btn-outline-success py-2 px-4">Read
-            More</button>
         </div>
-      </div>
     </div>
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product10-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bolder">Orgnic Carrot</h5>
+                        <h6 class="bkg"><strike>$12.00</strike> <span class="clr">$8.00</span></h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product9-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Organic cabbage</h5>
+                        <h6 class="bkg"><strike>$30.00</strike> <span class="clr">$22.00</span></h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
-    <div class="text-center my-4">
-      <iconify-icon class=" rounded-circle fs-5 p-1 dot-1" icon="icon-park-outline:dot"></iconify-icon>
-      <iconify-icon class="p-1 fs-5 anderson bg-white" icon="icon-park-outline:dot"></iconify-icon>
-      <iconify-icon class="p-1 fs-5 anderson bg-white" icon="icon-park-outline:dot"></iconify-icon>
-    </div>
-  </div>
-</div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product8-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Organic Patato</h5>
+                        <h6 class="bkg">$24.00</h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
 
-<!---Footer-->
-
-
-<Div class="text-white last-bg-img">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5">
-        <img class="curser-pointer img-fluid  aliesha" width="140" src="./img/logo-mobile.png" alt="">
-        <p class="my-5">The variety of products available at our store at the moment is vast, but we still continue to
-          widen our assortment.</p>
-        <div class="my-5">
-          <iconify-icon class=" icon rounded-circle py-1 px-1 p-2 fs-3 bg-white text-black face-icon"
-            icon="flowbite:facebook-solid"></iconify-icon>
-          <iconify-icon class="mx-2 rounded-circle py-1 
-              bg-white text-black   face-icon  px-1 p-2 fs-3" icon="mdi:twitter"></iconify-icon>
-          <iconify-icon class="rounded-circle py-1
-              bg-white text-black face-icon   px-1 p-2 fs-3" icon="mingcute:dribbble-line"></iconify-icon>
-          <i aria-hidden="true" class="fab fa-dribbble"></i>
-
-          <iconify-icon class="rounded-circle py-1 fs-4
-              bg-white text-black   face-icon   px-1 ms-2 fs-3" icon="mingcute:behance-fill"></iconify-icon>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="bbgg text-center">
+                        <img class="img-fluid" width="286" src="./image/h3-product7-500x400.png" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="clr fw-bold">Organic Peas</h5>
+                        <h6 class="bkg"><strike>$10.00</strike> <span class="clr">$6.00</span></h6>
+                        <button class="shop py-2 px-4 border-0 text-white fw-bold rounded add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-      </div>
-      <div class="col-md-7 d-none d-md-block ">
-        <div class="aliesha pt-5 d-flex justify-content-between our-job">
-          <div>
-            <h4 class="fw-bold">Information</h4>
-            <hr class="w-25 border-4  text-danger">
-            <p class="mt-5">Specials</p>
-            <p>Wishlist</p>
-            <p>Compare</p>
-            <p>Our Stores</p>
-            <p>About Us</p>
-            <p>Contact Us</p>
-          </div>
-          <div>
-            <h4 class="fw-bold">Categories</h4>
-            <hr class="w-25 border-4 text-danger">
-            <p class="mt-5">Bread & Bakery</p>
-            <p>Grocery & Frozen</p>
-            <p>Fresh Fruits</p>
-            <p>Fresh Meat </p>
-            <p>Organic</p>
-            <p>Recipies</p>
-          </div>
-          <div>
-            <h4 class="fw-bold">My Account</h4>
-            <hr class="w-25 border-4  text-danger">
-            <p class="mt-5">My Account</p>
-            <p>Order History</p>
-            <p>Wishlist</p>
-            <p>Specialss</p>
-            <p>Newsletter</p>
-            <p>About Us</p>
-          </div>
 
+    <div class="third-png mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="top">
+                    <h1 class="fw-bold text-white mt-4 size">Deals Of The <span class="bkg">Weeks</span></h1>
+
+                    <p class="text-white  mt-4 fw-medium">Organio is a design studio founded in London. Nowadays, we’ve
+                        grown and <br> expanded our services, and have become a multinational firm.</p>
+                </div>
+                <div class="col-3 col-md-3 col-lg-2 mb-3 bkg mt-4">
+                    <button class="csr shop  rounded border-0 text-white">
+                        <h3 class="fw-bold fs-1">2156</h3>
+                        <h6 class="fw-bold">DAYS</h6>
+                    </button>
+                </div>
+
+                <div class="col-3 col-md-3  col-lg-2 mb-3 bkg mt-4">
+                    <button class="csr shop  rounded border-0 text-white px-4">
+                        <h3 class="fw-bold fs-1 ">21</h3>
+                        <h6 class="fw-bold">HOU</h6>
+                    </button>
+                </div>
+
+                <div class="col-3 col-md-3 col-lg-2 mb-3 bkg mt-4">
+                    <button class="csr shop px-4 rounded border-0 text-white">
+                        <h3 class="fw-bold fs-1 ">36</h3>
+                        <h6 class="fw-bold">MIN</h6>
+                    </button>
+                </div>
+
+                <div class="col-3 col-md-3 col-lg-2 mb-3 bkg mt-4">
+                    <button class="csr shop px-4 rounded border-0 text-white">
+                        <h3 class="fw-bold fs-1 ">57</h3>
+                        <h6 class="fw-bold">SEC</h6>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</div>
-</Div>
 
-<div class="container">
-  <div class="mt-4 d-flex justify-content-between">
-  <span>© 2024 Organio – CaseThemes. All rights reserved.</span>
-    <div>
+    <!-- Our Farm Land Farmers -->
 
+    <div class="container mt-5">
+        <div class="text-center mt-5">
+            <h1 class="clr size fw-bold"> Our Farm Land <span class="bkg"> Farmers</span></h1>
+            <p class="text-body-secondary mt-4">We love what we do and we do it with passion. We value the
+                experimentation of the
+                <br> message and smart incentives.
+            </p>
+        </div>
     </div>
-    <div>
-  <img src="./img/payment-icons2.png" class="img-fluid rounded-top" alt="" />
 
+
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="mt-4">
+                    <div class=" text-center ">
+                        <img class="img-fluid dolar rounded-top" src="./image/h5-team1-270x368.jpg" alt="">
+                    </div>
+                    <div class="bg-light text-center rounded-bottom py-3  border-top-0">
+                        <h5 class=" clr fw-bold">Alex Maxwel</h5>
+                        <p class="clr ">CEO/Managing Dictor</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm- col-md-6 col-lg-3 d-none d-md-block">
+                <div class="mt-4">
+                    <div class=" ">
+                        <img class="img-fluid rounded-top" src="./image/h5-team2-270x368.jpg" alt="">
+                    </div>
+                    <div class="bg-light text-center py-3 border-top-0 rounded-bottom">
+                        <h5 class="clr fw-bold">Justin Roberto</h5>
+                        <p class="clr">Manager</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm- col-md-6 col-lg-3 d-none d-md-block">
+                <div class="mt-4">
+                    <div class=" ">
+                        <img class="img-fluid rounded-top" src="image/h5-team3-270x368.jpg" alt="">
+                    </div>
+                    <div class="bg-light text-center py-3 border-top-0 rounded-bottom">
+                        <h5 class="clr fw-bold">Louis Agassiz</h5>
+                        <p class="clr">Oragnic Farmer</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm- col-md-6 col-lg-3 d-none d-md-block">
+                <div class="mt-4">
+                    <div class=" rounded-top">
+                        <img class="img-fluid rounded-top" src="/image/h5-team4-270x368.jpg" alt="">
+                    </div>
+                    <div class="bg-light text-center py-3 border-top-0 rounded-bottom">
+                        <h5 class="clr fw-bold">Carl Anderson</h5>
+                        <p class="clr">Agriculturist</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <iconify-icon class="border py-1 px-1 bkg rounded-circle mt-2"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+
+                <iconify-icon class=" mx-2 rounded-circle clr fs-6 fw-medium"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+                <iconify-icon class="rounded-circle clr fs-6 fw-medium"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+            </div>
+        </div>
     </div>
-</div>
-</div>
+
+
+
+    <!-- 
+What our Clients are Saying
+ -->
+    <div class="bg-body-tertiary bdn">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 ">
+                    <img class="img-fluid" src="./image/h5-testimonial-banner.png" alt="">
+                </div>
+
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <h1 class="fw-bold clr mt-5">What our Clients are <br>
+                        <span class="bkg">Saying</span>
+                    </h1>
+
+
+                    <p class="text-body-secondary mt-5">This is one of the best themes I have ever worked with. The
+                        extra
+                        bells and <br> whistles added to it
+                        are amazing. Elementor features add extra flavor. The <br>
+                        customer support is very responsive and amazing.</p>
+
+                    <div class="my-5">
+                        <span class="fw-bold clr fs-5">Alisha Preston</span>
+                        <p class="text-body-secondary">Managing Director</p>
+                    </div>
+
+                    <div>
+                        <iconify-icon class="clr mx-3 border fs-4 py-2 px-2 btn btn-outline-success "
+                            icon="mingcute:arrow-left-line"></iconify-icon>
+                        <iconify-icon class="clr fs-4 py-2 px-2 border btn btn-outline-success "
+                            icon="mingcute:arrow-right-line"></iconify-icon>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Latest News & Blog -->
+
+
+    <div class="text-center mt-5">
+        <h1 class="fw-bold clr size"><span class="bkg">Latest </span> News & Blog</h1>
+        <p class="text-body-secondary">Follow our latest news and thoughts which focuses exclusively on design, art,
+            <br> vintage, and also work updates.
+        </p>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-md-4">
+                <div class="card border-0 Regular shadow mt-3">
+                    <img src="./image/organic1-370x240 murgi.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+
+
+                        <div class="d-flex justify-content-between">
+                            <div class="col-">
+                                <div class="d-flex">
+                                    <iconify-icon class="me-2 text-success fs-5 fw-bold"
+                                        icon="material-symbols:folder-open"></iconify-icon>
+                                    <p class="text-body-secondary">Fresh meet</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="d-flex">
+                                <iconify-icon class="text-center text-success fs-5 fw-bold"
+                                    icon="solar:calendar-line-duotone"></iconify-icon>
+                                <p class="ms-2 text-body-secondary">Marech 17, 2021</p>
+                            </div>
+                        </div>
+
+                        <h4 class="clr fw-bold mt-2">Our 6 of the Best Organic Chocolates to Buy.</h4>
+                        <button type="button" class="clr my-3 fw-bold btn btn-outline-success py-2 px-4">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="col-md-4 d-none d-md-block">
+                <div class="card border-0 Regular shadow mt-3">
+                    <img src="./image/organic2-370x240knife.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+
+
+                        <div class="d-flex justify-content-between">
+                            <div class="col-">
+                                <div class="d-flex">
+                                    <iconify-icon class="me-2 text-success fs-5 fw-bold"
+                                        icon="material-symbols:folder-open"></iconify-icon>
+                                    <p class="text-body-secondary">Grocery & Frozen</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="d-flex">
+                                <iconify-icon class="text-center text-success fs-5 fw-bold"
+                                    icon="solar:calendar-line-duotone"></iconify-icon>
+                                <p class="ms-2 text-body-secondary">Marech 17,2021</p>
+                            </div>
+                        </div>
+
+                        <h4 class="clr fw-bold mt-2">Best guide to shopping for oragnic ingredients.</h4>
+                        <button type="button" class="clr my-3 fw-bold btn btn-outline-success py-2 px-4">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="col-md-4 d-none d-md-block ">
+                <div class="card border-0 Regular shadow mt-3">
+                    <img src="./image/organic3-370x240.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+
+
+                        <div class="d-flex justify-content-between">
+                            <div class="col-">
+                                <div class="d-flex">
+                                    <iconify-icon class="me-2 text-success fs-5 fw-bold"
+                                        icon="material-symbols:folder-open"></iconify-icon>
+                                    <p class="text-body-secondary">Grocery & Frozen</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="d-flex">
+                                <iconify-icon class="text-center text-success fs-5 fw-bold"
+                                    icon="solar:calendar-line-duotone"></iconify-icon>
+                                <p class="ms-2 text-body-secondary">Marech 17, 2021</p>
+                            </div>
+                        </div>
+
+                        <h4 class="clr fw-bold mt-2">Zechsal Magnesium <br> flakes especially made.</h4>
+                        <button type="button" class="clr my-3 fw-bold btn btn-outline-success py-2 px-4">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center mt-5">
+
+                <iconify-icon class="border py-1 px-1 bkg rounded-circle mt-2"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+
+                <iconify-icon class=" mx-2 rounded-circle clr fs-6 fw-medium"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+                <iconify-icon class="rounded-circle clr fs-6 fw-medium"
+                    icon="material-symbols-light:stop-rounded"></iconify-icon>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-section -->
+
+    <div class="footer text-white mt-5 py-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- first  -->
+                <div class="col-lg-4 col-md-6 col-sm-6 mtb">
+                    <img class="text-white" width="150" src="./image/logo-light.png" alt="">
+
+                    <div>
+                        <p class="mt-4">The variety of products available at our store <br>
+                            at the moment is vast, but we still continue to <br>
+                            widen our assortment.</p>
+                    </div>
+
+                    <div class="mt-4">
+                        <iconify-icon class=" hvr bg-white text-black fw-bold fs-5 rounded-circle py-2 px-2"
+                            icon="flowbite:facebook-solid"></iconify-icon>
+                        <iconify-icon class="ms-1 text-black bg-white  border fw-bold fs-5 rounded-circle py-2 px-2"
+                            icon="mdi:twitter"></iconify-icon>
+                        <iconify-icon class="ms-1 text-black bg-white border fw-bold fs-5 rounded-circle py-2 px-2"
+                            icon="flowbite:facebook-solid"></iconify-icon>
+                        <iconify-icon class="ms-1 text-black bg-white border fw-bold fs-5 rounded-circle py-2 px-2"
+                            icon="mdi:twitter"></iconify-icon>
+
+                    </div>
+                </div>
+
+                <!-- second -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-3">
+                    <div class="mtb">
+                        <h5 class="fw-bold">Information</h5>
+                        <div class="ddd mt-2"></div>
+                        <div class="mt-3">
+                            <p class="">Specials</p>
+                            <p>Wishlist</p>
+                            <p>Compare</p>
+                            <p>Our Stores</p>
+                            <p>About Us</p>
+                            <p>Contact Us</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- third  -->
+                <div class="col-lg-3 col-md-6 col-sm-6  mt-3">
+                    <div class="mtb">
+                        <h5 class="fw-bold">Categories</h5>
+                        <div class="ddd mt-2"></div>
+                        <div class="mt-3">
+                            <p>Bread & Bakery</p>
+                            <p>Grocery & Frozen</p>
+                            <p>Fresh Fruits</p>
+                            <p>Fresh Meats</p>
+                            <p>Organic</p>
+                            <p>Recipies</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- forth  -->
+                <div class="col-lg-2 col-md-6 col-sm-6 mt-3">
+                    <div class="mtb">
+                        <h5 class="fw-bold">My Account</h5>
+                        <div class="ddd mt-2"></div>
+                        <div class="mt-3">
+                            <p>My Account</p>
+                            <p>Order History</p>
+                            <p>Wishlist</p>
+                            <p>Specials</p>
+                            <p>Newsletter</p>
+                            <p>About Us</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+        <div class="container mt-3 d-none d-md-block">
+            <div class="row">
+            <div class="d-flex justify-content-between">
+                <div class="col-md-8">
+                    <p class="clr fw-medium">© 2024 Organio – <span class="text-success">CaseThemes</span>. All rights reserved.</p>
+                </div>
+             <div class="col-md-4">
+                <img height="22px " src="./image/payment-icons2.png" alt="">
+             </div>
+            </div>
+        </div>
+        </div>
+    <script src="./javS.js"></script>
 </body>
-
-<script src="./javS.js"></script>
 
 </html>

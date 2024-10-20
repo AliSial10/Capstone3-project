@@ -11,7 +11,7 @@ var d = document.getElementById("n4").value;
 
 if (a == "" || b == "" || c == "" || dd == "")
 {
-    alert("Fill the Form Completely!");
+    alert("All Field are mandatory");
     return false;
 }
 
@@ -23,12 +23,19 @@ else if(c!=d)
     return false
 }
 
-
-
-
-
-
 else{
      true;
 }
 }
+
+let cartCount = 0;
+const cartCountElement = document.getElementById('cart-count');
+const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        cartCount++;
+        cartCountElement.textContent = cartCount;
+        alert('Confirm Buy Items!');
+    });
+});

@@ -12,7 +12,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
                 <div class="d-flex align-items-center">
                     <div class="d-flex me-4 mt-2 mb-2">
-                        <img class="my-2 rounded" width="20" height="20" src="./img/en.png" alt="">
+                        <img class="mb-3 mt-2" height="20" width="20" h src="./image/en.png" alt="">
                         <div class="mt-2">
                             <p>English</p>
                         </div>
@@ -46,29 +46,30 @@
 
             </div>
         </div>
-
     </div>
 
 
 
 
 
+
     <div class="container mt-4 d-none d-md-block">
-        <div class="row">
-            <div class="col-md-2">
-                <img class="" width="150" src="./img/logo-mobile.png" alt="">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="col-md-3">
+                <img class="" width="150" src="./image/logo-mobile.png" alt="">
             </div>
-            <div class="col-8">
+            <div class="col-6">
                 <div class="input-group">
                     <button class="border px-5 py-2 text-black fs-6 rounded-start-pill">categeory</button>
                     <input type="text" class="border" aria-label="">
                     <button class="rounded-end-pill  px-5 py-3 text-white bg-success border-0" >Search</button>
 
+
                 </div>
             </div>
 
 
-            <div class="col-md-2">
+            <div class="col-3">
                 <div class="d-flex">
                     <iconify-icon class="mt- me-2 fs-1"
                         icon="material-symbols:headset-mic-outline-rounded"></iconify-icon>
@@ -86,18 +87,18 @@
 
 
     <!-- navbar -->
-    <section class="browse mt-3">
+    <section class="dell mt-3">
         <nav class="navbar navbar-expand-lg text-white container  ">
             <div class="container-fluid px-4 py-1 text-white">
 
 
-                <div class="">
+                <div class="bbb">
                     <h6 class=""><iconify-icon icon="material-symbols:legend-toggle"></iconify-icon> Browse Categories
                     </h6>
                 </div>
 
 
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -133,14 +134,12 @@
         </nav>
     </section>
 
-    <div class="second-nav py-5">
+    <div class="login-img py-5">
         <div class="container">
             <div class="text-center align-items-center py-5">
-                <h1 class="mt-5 text-white fw-bold sign-up">Sign In</h1>
+                <h1 class="mt-5 text-white fw-bold size">Sign In</h1>
                 <div class=" text-center align-items-center fw-bold">
-                    <p class="text-white text-center">Home 
-                      <iconify-icon icon="ep:arrow-right"></iconify-icon><iconify-icon icon="ep:arrow-right"></iconify-icon>
-
+                    <p class="text-white text-center">Home |
                         Sign up
                     </p>
 
@@ -158,21 +157,25 @@
                 <h3 class="text-center mb-4">Log In To Your Account</h3>
 
 
-                <form><div class="mb-3 ">
-                  <div class="input-group mb-3 w-100  ">
-                    <span class="input-group-text" id="inputGroup-sizing-default"><iconify-icon class="fs-4" icon="mdi:account"></iconify-icon></span>
-                    <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Username" aria-describedby="inputGroup-sizing-default">
-                  </div>
-                </div>
-                
-                <div class="mb-3">
-                  <div class="input-group mb-3 w-100">
-                    <span class="input-group-text" id="inputGroup-sizing-default"><iconify-icon icon="uim:lock"></iconify-icon></span>
-                    <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Password"   aria-describedby="inputGroup-sizing-default">
-                  </div>
-                </div>
-                    <button type="submit" class="browse text-white fw-bold border-0 py-3 rounded-pill w-100">Log
-                        In</button>
+                <form>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text bg-white">
+                        </span>
+                        <iconify-icon class="color position-absolute text-center  fs-4 mt-2"
+                            icon="mdi:user"></iconify-icon>
+                        <input type="text" class="form-control py-2 px-5" placeholder="Username">
+                    </div>
+
+
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text bg-white">
+                        </span>
+                        <iconify-icon class="color position-absolute text-center  fs-4 mt-2"
+                            icon="material-symbols:lock"></iconify-icon>
+                        <input type="password" class="form-control py-2 px-5 " placeholder="Password" required>
+                    </div>
+                    <a type="submit" href="./INDEX.html" class="text-center dell text-white fw-bold border-0 py-3 rounded-pill w-100">Log In</a> 
+
 
                 </form>
 
@@ -186,17 +189,17 @@
     </div>
 
     <!-- login-page-footer -->
-    <div class="login-footer">
+    <div class="login-footer pb-3">
         <div class=" d-none d-md-block">
             <div class="container">
                 <div class="login rounded-pill d-flex align-items-center me-5">
                     <div>
-                        <img width="389" class="mb-5" src="./img/mailchimp-image1.png" alt="">
+                        <img width="389" class="mb-5" src="./image/mailchimp-image1.png" alt="">
                     </div>
                     <div class="ms-5 ">
                         <h2 class="text-white fw-bold ">Subscribe to our Newsletter:</h2>
                         <div class="">
-                            <input class="input-foter px-5 py-1 border-bottom border-0 fst-italic " type="text"
+                            <input class="output px-5 py-1 border-0 fst-italic border-bottom " type="text"
                                 placeholder="type your mail adress">
                             <button
                                 class=" align-items-center border-0 py-1 px-3 rounded-pill bg-success text-white fw-bold">Subscribe<iconify-icon
@@ -219,7 +222,7 @@
                 <div class="row">
                     <div class="col-md-4 mb-4 col-sm-6 mt-4">
                         <div class="pb-lg-4">
-                            <img width="150" src="./img/logo-light (1)footer logo.png" alt="Logo" class="me-2">
+                            <img width="150" src="./image/logo-light.png" alt="Logo" class="me-2">
                         </div>
                         <p class="text-white fw-bold">We work with a passion of taking <br>
                             challenges and creating new ones in <br>
@@ -268,7 +271,7 @@
                                 <li class="text-white">Organic Food</li>
                             </div>
 
-                            <li class="ms-3 pt-3 "> Open Hours:</li>
+                            <li class="ms-3 pt-3 bkg">Raw Food</li>
 
                             <div class="pt-3 d-flex text-center align-items-center">
                                 <iconify-icon class="color me-2 fs-4" icon="bi:telephone-fill"></iconify-icon>
@@ -288,22 +291,22 @@
                         <div class="row g-2 mt-4">
                             <div class="col-4">
 
-                                <img width="500" src="./img/160592051_437679624012421_2157246266541466556_nlow login1.jpg" alt="" class="img-fluid">
+                                <img width="500" src="./image/160592051_437679624012421_2157246266541466556_nlow login1.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-4">
-                                <img src="./img/160790142_520098882312680_7190864355709334403_nlowlogin2.jpg" alt="" class="img-fluid ">
+                                <img src="./image/160790142_520098882312680_7190864355709334403_nlowlogin2.jpg" alt="" class="img-fluid ">
                             </div>
                             <div class="col-4">
-                                <img src="./img/161271827_191172625791711_1225591762254058110_nlow login3.jpg" alt="" class="img-fluid">
+                                <img src="./image/161271827_191172625791711_1225591762254058110_nlow login3.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-4">
-                                <img src="./img/160300357_262853852155134_4639421379710860544_nlowmurgi2.jpg" alt="" class="img-fluid ">
+                                <img src="./image/160300357_262853852155134_4639421379710860544_nlowmurgi2.jpg" alt="" class="img-fluid ">
                             </div>
                             <div class="col-4">
-                                <img src="./img/160824220_272293631058951_25353289917148256_nlowlogin5.jpg" alt="" class="img-fluid ">
+                                <img src="./image/160824220_272293631058951_25353289917148256_nlowlogin5.jpg" alt="" class="img-fluid ">
                             </div>
                             <div class="col-4">
-                                <img src="./img/161432828_1556196047918593_925226802758570664_nlowlogin66.jpg" alt="" class="img-fluid ">
+                                <img src="./image/161432828_1556196047918593_925226802758570664_nlowlogin66.jpg" alt="" class="img-fluid ">
                             </div>
                         </div>
                     </div>

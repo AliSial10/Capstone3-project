@@ -1,0 +1,163 @@
+** {
+    margin: 0;
+    padding: 0;
+}
+
+.pointr {
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url(./image/h5-bg-slider1.jpg);
+    background-size: cover;
+}
+.hero-section {
+background-color: #50882A;
+}
+
+.contant {
+    margin-top: 140px;
+}
+
+.contant h2 {
+    font-size: 80px;
+}
+.aaaa:hover{
+    background-color:#157347;
+    color:white;
+}
+.bkg {
+    color: #FF6924;
+}
+
+.shop {
+    background-color: #FF6924;
+}
+
+.icon {
+    background-color: #AFD199;
+    cursor: pointer;
+}
+
+.iii:hover {
+    background-color: #50882A;
+}
+
+.iiii{
+    background-color: #6e9422;
+}
+
+.dell {
+    background-color: #50882A;
+}
+
+.color {
+    color: #50882A;
+}
+
+.icon:hover {
+    background-color: #fff;
+}
+.clr {
+    color: #010148;
+}
+
+.bor {
+    border: 2px solid #010148;
+}
+
+.alt:hover {
+    background-color: #FF6924;
+    border: 1px solid #FF6924;
+}
+
+.drop:hover {
+
+    box-shadow: 0 20px 30px rgb(224, 221, 221);
+
+}
+
+.size {
+    font-size: 42px;
+}
+
+.bg-two {
+    background-image: url(./image/h5-bg-cta1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.bbgg {
+    background-color: #FDEEE7;
+}
+
+.third-png {
+    background-image: url(./image/h5-bg-countdown1.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.top {
+    margin-top: 150px
+}
+
+.csr:hover {
+    cursor: text;
+}
+
+.bdn {
+    padding: 60px 0;
+    margin-top: 80px;
+}
+
+.footer {
+    background-image: url(./image/h5-bg-footer.jpg);
+
+}
+
+.ddd {
+    border: 2px solid #FF6924;
+    width: 35px;
+}
+
+.mtb {
+    margin-top: 70px;
+}
+
+.bor {
+    border: 1px solid rgb(181, 177, 177);
+    height: 50px;
+}
+
+.login-img {
+    background-image: url(./image/bg-page-title.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.output{
+    background: none;
+}
+
+.login-footer {
+    background-image: url(./image/bg-footer-top.png);
+
+    background-size: cover;
+}
+
+.login {
+    background-image: url(./image/bg-mailchimp.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .dolar {
+        width: 500px;
+    }
+
+    /* .login-footer {
+        height: 1100px;
+    } */
+}
